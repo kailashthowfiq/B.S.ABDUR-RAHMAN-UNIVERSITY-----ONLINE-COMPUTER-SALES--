@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #000000;
+	font-size: medium;
+}
+body {
+	background-image: url(New%20folder/nice-background.jpg);
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.style8 {font-size: x-large}
+.style10 {font-size: x-large; font-weight: bold; }
+.style11 {
+	font-size: large;
+	font-weight: bold;
+}
+-->
+</style>
+<script language="JavaScript" >
+
+function getSubmit(){
+var xmlhttp;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET","insert.php?name="+document.getElementById("name").value+"&age="+document.getElementById("age").value+"&gender="+document.getElementById("gender").value+"&contact="+document.getElementById("contact").value+"&email="+document.getElementById("email").value+"&address="+document.getElementById("address").value+"&pincode="+document.getElementById("pincode").value+"&product="+document.getElementById("product").value,false);
+xmlhttp.send(null);
+}
+</script></head>
+
+<body>
+<h1 align="center">K&amp;T COMPUTERS <br>
+</h1>
+<pre>
+<h2><a href="webpage.html">   HOME</a><a href="laptops.html"></a>                                                                                                       <a href="products available.html">PRODUCTS  </a>
+</h2>
+</pre>
+<div align="center">
+  <pre class="style11">ONLY CASH ON DELIVERY!!!
+</div>
+<form id="form2" name="form2" method="post" action="">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center>  <label> PRODUCT NUMBER :
+  &nbsp;&nbsp;&nbsp; <input type="text" name="product1" id="product"/><br><br>
+  </label></center>
+</form>                                                
+<pre>
+<form action="" method="post" name="form1" class="" id="form1"><label>                                 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><label> <input type="text" name="name1" id="name"/><br><br />                              
+    <center><B><strong> AGE   </strong> </B>             <input type="text" name="age1" id="age"/></center>
+<br /><br /><br />                                       <center>  <B><strong> GENDER     </strong></B>         <input type="text" name="gender1" id="gender"/></center><br><br></label><p>                                       
+  <center> <label>CONTACT NUMBER     <input type="text" name="contact1" id="contact"/><br><br></label></p></center>                                       
+  <center> <label>EMAIL-ID            <input type="text" name="email1" id="email"/></center><br><br><br />                                      <br /><br />                                
+       <center>  <B><strong> ADDRESS</strong>     </B>        <input type="text" name="address1" id="address"/></center><br><br></label></span></p><p>&nbsp;</p><p>                                          
+<center><label><B><strong>PINCODE <strong>     </B>       <input type="text" name="pincode1" id="pincode"/></center><br><br></label></p>                                                                          
+     </p><p> <center><a href="confirm.html">place order </a>	<input type="submit" value="SAVE" onclick="getSubmit();" />
+</center></p></form>
+<p align="center">&nbsp;</p>
+</pre>
+</body>
+</html>
